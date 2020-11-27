@@ -1,0 +1,95 @@
+#header-nav {
+	background-color: #ffcc00;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 10px;
+}
+
+.navbar-brand h1 {
+	top: 0%;
+	color: #000000;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+
+.icon {
+	size: cover;
+	width: 50px;
+	height: 51px;
+}
+
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 1.1em;
+}
+
+h1 {
+	font-family: comic sans ms;
+}
+
+body > section {
+	background-color: #4d3d00;
+	color: #ffffff;
+}
+
+/*body > section > h1 {
+	text-align: center;
+}*/
+
+@media (min-width: 992px) {
+	#chicken {
+		left: 1%;
+	}
+
+    #beef {
+    	left: 12.5%;
+    }
+
+    #sushi {
+    	float: right;
+	    right: 1%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#chicken, #beef {
+		height: 1300px;
+		overflow: auto;
+	}
+
+    #beef {
+    	float: right;
+    }
+
+    #sushi {
+    	position: absolute;
+    	top: 155%;
+    }
+}
+
+@media (max-width: 767px) {
+	body > section {
+		padding-top: 1%;
+	}
+}
